@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button";
+import FeatureSection from "@/components/feature-section";
+import HeroSection from "@/components/hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello Namma AI Career Coach</h1>
-      <Button variant="default">Get Started</Button>
+    <div className="relative">
+      <div className="grid-background" />
+      <HeroSection />
+      <FeatureSection />
     </div>
   );
 }
